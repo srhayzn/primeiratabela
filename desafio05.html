@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio05 tabela</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+        caption {
+            font-size: 1.5;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+        .a {
+            background-color: aqua;
+        }
+        .c, .d {
+            background-color: blueviolet;
+        }
+        .e {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio 05 tabela</h1>
+    <table>
+        <colgroup>
+            <col class="a">
+            <col class="b">
+            <col class="c" span="2">
+            <col class="">
+        </colgroup>
+        <caption>Cadastro</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">idade</th>
+                    <th scope="col">Profissão</th>
+                </tr>
+                <tr class="e">
+                    <td>Ana maria</td>
+                    <td>F</td>
+                    <td>25</td>
+                    <td>Jornalista</td>
+                    
+                   
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>M</td>
+                    <td>26</td>
+                    <td>Programador</td>
+                   
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>M</td>
+                    <td>42</td>
+                    <td>professor</td>
+                  
+                </tr>
+                <tr>
+                    <td>Miralva</td>
+                    <td>f</td>
+                    <td>35</td>
+                    <td>rainha</td>
+                    <tr>
+                        <td>Emerson</td>
+                        <td>M</td>
+                        <td>28</td>
+                        <td>Rei</td>
+
+            </thead>
+        
+    </table>
+    
+</body>
+</html>
